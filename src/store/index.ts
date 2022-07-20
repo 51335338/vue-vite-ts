@@ -1,4 +1,4 @@
-import { createStore } from "vuex"
+import { createStore } from 'vuex'
 
 const defaultState = {
   count: 0
@@ -10,7 +10,7 @@ export default createStore({
   },
   mutations: {
     add(state: typeof defaultState) {
-      state.count ++
+      state.count++
     }
   },
   actions: {
